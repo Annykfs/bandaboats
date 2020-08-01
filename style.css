@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav {
+    margin-right: 90px;
+}
+nav li {
+    padding: 0px 15px;
+}
+a {
+    font-family: 'Scada', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;    
+}
+#icon-mobile {
+    display: none;
+}
+
+#head {
+width: 80%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0px auto;
+}
+header {
+    background-color: #1E1E1F;
+    height: 50%;
+}
+#logo {
+    margin: 10px 90px;
+}
+#logo a {
+    font-family: 'Rozha One', serif;
+    color: white;
+    font-size: 400%;
+}
+#bkg{
+    background-image: url("./img/BOATS1.jpg") ;
+    width: 100%;
+    height: 100.3vh;
+    background-size: cover;
+    background-position-y: center;
+}
+
+@media (max-width: 1288px) {
+    #icon-mobile {
+        display: inline-block;
+        
+    }
+    header nav{
+        display: none;
+    }
+    #head {
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+    }
+    #head #icon-mobile {
+        position: absolute;
+        left: 15px;
+    }
+
+}
