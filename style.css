@@ -46,7 +46,6 @@ header {
 #bkg{
     background-image: url("./img/BOATS1.jpg") ;
     width: 100%;
-    height: 100.3vh;
     background-size: cover;
     background-position-y: center;
 }
